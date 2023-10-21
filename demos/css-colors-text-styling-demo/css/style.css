@@ -1,0 +1,40 @@
+#first-paragraph {
+    color: orangered;
+    background-color: navy;
+    font-style: italic;
+    text-align: right;
+}
+
+#second-paragraph{
+    color: green;
+    background-color: pink;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    background-color: coral;
+}
+
+#span1 {
+    color: crimson;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+#span2 {
+    font-style:italic;
+    text-decoration: line-through;
+}
+
+#span3 {
+    color:blue;
+    background-color: yellow;
+    text-align: right;
+}
+
+body {
+    background-color: paleturquoise;
+}
+
