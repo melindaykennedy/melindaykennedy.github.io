@@ -1,0 +1,27 @@
+div{
+    border: 5px solid red;
+    /* 1 value for margin/padding will apply that size along all 4 sides*/
+    margin: 24px;
+    /* 2 values for shorthand margin/padding will apply the qst value to the top and bottom 
+    of an element, and apply the secon value to the left and right side of the
+    element*/
+    margin: 40px 100px;
+    /* 3 values for shorthand margin/padding will apply the 1st value to the
+    top of an element, 2nd value to the left and right of an element and
+    3rd value to the bottom of an element*/
+    margin: 10px 50px 25px;
+    /* 4 values for shorthand margin/padding will apply the 1st value to the top of an
+    element, 2nd value to the right of an element, 3rd value to the bottom of
+    element, and 4th value applies to the left of an element.*/
+    margin: 25px 0px 25px 0px;
+    padding: 24px 36px;
+    background-color: paleturquoise;
+}
+
+p {
+    border: 20px dotted blue;
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: cornflowerblue;
+    border-radius: 50px;
+}
