@@ -26,7 +26,22 @@
     background-color: blue;
     border-color: blue;
 }
+.rust{
+    background-color: #bc3908;
+    border-color: #bc3908;
+}
 
-.wide{
-    padding: 15px 100px;
+.moonstone{
+    background-color: #43bccd;
+    border-color: #43bccd;
+}
+
+.space-cadet{
+    background-color: #2e294e;
+    border-color: #23294e;
+}
+
+.fairy-tale{
+    background-color: #efbcd5;
+    border-color: #efbcd5;
 }
