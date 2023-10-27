@@ -23,15 +23,25 @@ img{
 }
 
 .frame-2{
-    border: 10px solid green;
+    border: 10px solid black;
     margin: 79px 12px 0px;
     box-shadow: -2px 2px 2px black;
     width: 120px;
-    border-radius: 3cm;
 }
 
 .frame-2 div{
     padding: 10px;
-    background-color: yellow;
-    border-radius: 3cm;
+    background-color: darkred;
+    box-sizing: 2px 2px 2px;;
+}
+
+.frame-3{
+    border: 10px solid orangered;
+    margin: 79px 12px 0px;
+    width: 120px;
+}
+
+.frame-3 div{
+    padding:15px;
+    background-color: navy;
 }
