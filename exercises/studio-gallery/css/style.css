@@ -6,3 +6,32 @@
 
     Good luck, and have fun!
 */
+img{
+    width: 100%;
+}
+.frame-1{
+    border:10px solid #ffeedd;
+    margin: 70px 12px 0px;
+    box-shadow: -2px 2px 2px #3a3632;
+    width: 120px;
+}
+
+.frame-1 div{
+    padding: 12px;
+    background-color: white;
+    box-shadow: 2px 2px 2px;
+}
+
+.frame-2{
+    border: 10px solid green;
+    margin: 79px 12px 0px;
+    box-shadow: -2px 2px 2px black;
+    width: 120px;
+    border-radius: 3cm;
+}
+
+.frame-2 div{
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 3cm;
+}
