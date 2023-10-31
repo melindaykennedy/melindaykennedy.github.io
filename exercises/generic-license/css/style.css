@@ -69,5 +69,10 @@ h1, h4 {
 
 h1 {
     font-size: 40px;
-    padding-top: 20px
+    padding-top: 20px;
+}
+
+#left-side {
+    padding-bottom: 20px;
+
 }
