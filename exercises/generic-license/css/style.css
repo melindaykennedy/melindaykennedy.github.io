@@ -15,6 +15,7 @@
     );
     border: 2px solid black;
     width: 700px;
+    padding-left: 15px;
 }
 
 #left-side,
@@ -42,7 +43,6 @@
 #donor,
 #real-id {
     display: inline-block;
-    vertical-align: 150px;
 }
 
 #small-pic img {
@@ -51,7 +51,7 @@
 }
 
 #right-side img{
-    width: 150px;
+    width: 160px;
     
 }
 
@@ -60,5 +60,14 @@
     color: white;
     height: 25px;
     text-align: center;
-    padding:
+    padding-top: 3px
+}
+
+h1, h4 {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 20px
 }
