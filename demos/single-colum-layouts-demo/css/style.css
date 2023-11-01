@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px; 
+    font-family: sans-serif;
+    }
+
+.single-column{
+    width:50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.light-container {
+    background-color: lightgreen;
+    padding: 48px 0px;
+}
+
+.dark-container {
+    background-color: #013d01;
+    color:white;
+    padding:48px 0px;
+}
+
+
+
+/*removing margin so content stretches to end of page/* (line 6) - don't go
+with defaults - always make specific for client/page - 50% for not spanning
+whole page and reads well - 50% is relative unit - will stretch or shink depending
+on how big or small screen - width on line 11 refers to amount of screen
+for line 13 to make a right align page layout use margin left: auto otherwise
+it's a left align page layout - always include width and adding a min/max 
+or both for single column page layouts
+
+or use margin: 0px auto; for shorthand coding for lines 13 and 14 to make two
+lines of coding just one - this makes top and bottom margins to zero and
+left and right side to center
+
+light container is used for filling background color to the edge of the screen
+
