@@ -12,8 +12,6 @@ body {
     min-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background-color: green;
-
 }
 
 .light-green-column {
@@ -21,7 +19,6 @@ body {
     min-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background-color: lightgreen;
 }
 
 .dark-green-column {
@@ -29,6 +26,17 @@ body {
     min-width: 500px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.herb-butter {
+    background-color: lightgreen;
+}
+
+.cheddar-broccoli {
+    background-color: green;
+}
+
+.cilantro-lime {
     background-color: darkgreen;
 }
 
