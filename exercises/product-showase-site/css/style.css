@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.green-column {
+    width:50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+
+}
+
+.light-green-column {
+    width:50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgreen;
+}
+
+.dark-green-column {
+    width:50%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgreen;
+}
+
