@@ -57,7 +57,7 @@
     display: flex;
 }
 
-.box {
+#c8-box1, #c8-box2, #c8-box3 {
     flex: 1;
 }
 
