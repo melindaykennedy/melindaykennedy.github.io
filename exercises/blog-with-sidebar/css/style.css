@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 450px 250px 1fr;
+    grid-template-areas: 
+        ".content sidebar."
+    ;
+}
+
+#sidebar-content {
+    padding:18px;
+}
+
+#sidebar-content h3 {
+    background-color: purple;
+    border: 5px solid darkorchid;
+    margin: 0px;
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+}
+
+#sidebar-content ul {
+    background-color: rgb(172, 102, 172);
+    border: 2px solid darkorchid;
+    margin: 0px 0px 36px;
+    list-style-type:lower-roman;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-right: 7px;
+}
+
