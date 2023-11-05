@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #9199a0;
 }
 
 #grid-layout {
@@ -38,3 +39,31 @@ body {
     padding-right: 7px;
 }
 
+#main-content h3 {
+    color: darkorchid;
+}
+
+#main-content h1 {
+    color: purple;
+}
+
+#main-content h2 {
+    color:blueviolet;
+}
+
+#main-content h4 {
+    color: darkviolet;
+}
+
+#main-content p {
+    color: indigo;
+}
+
+#main-content ul {
+    color:rebeccapurple;
+}
+
+#sidebar-content p {
+    margin-top: 0px;
+    color: rebeccapurple;
+}
