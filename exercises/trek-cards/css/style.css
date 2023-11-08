@@ -8,3 +8,59 @@
     of the setup.css styling if you do so.
 */
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-style-1 {
+    max-width: 350px;
+    margin: 16px;
+    box-shadow: 4px 4px 8px #00000088;
+    background-color: rgb(231, 255, 231);
+}
+
+.card-style-1 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-style-1 h2 {
+    font-size: 36px;
+    margin-top: 0px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.card-style-1 p {
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.btn {
+    display: block;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    border: 3px solid darkgreen;
+    transition: 
+        background-color 0.5s,
+        color 0.5s
+    ;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: darkgreen;
+}
