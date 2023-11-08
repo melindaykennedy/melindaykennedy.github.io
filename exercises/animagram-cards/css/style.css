@@ -7,3 +7,32 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-style-2 {
+    max-width: 350px;
+    margin: 16px;
+    box-shadow: 4px 4px 8px #00000088;
+    background-color: white;
+}
+
+.card-style-1 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+img {
+    height: 175px;
+    width: 175px;
+    border-radius: 100%;
+}
+
