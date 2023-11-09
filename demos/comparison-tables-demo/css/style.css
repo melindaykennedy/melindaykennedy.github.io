@@ -69,7 +69,7 @@ within the flexbox container */
 .comparisons-layout-1 .comparison-column .label {
     display: block;
     font-weight: bold;
-    padding bottom: 12px;
+    padding-bottom: 12px;
 }
 
 /* Comparison Layout 2*/
@@ -86,7 +86,7 @@ we use many flexbox containers to build rows.*/
 
 .comparison-row {
     display: flex;
-    border bottom: 3px solid #bfefff;
+    border-bottom: 3px solid #bfefff;
     color: #bfefff
 }
 .comparison-row .comparison-header {
