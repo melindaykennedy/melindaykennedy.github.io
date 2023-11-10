@@ -23,3 +23,51 @@ background (duh) instead of a background color or gradient.
 This property uses a weird function syntax similar to linear-gradient() 
 but this one is called url().
 
+Similar to the src attribute of an image, we need to provide a file path to 
+the image we want to load.
+
+As a reminder, a file path basically is a set of directions to the computer,
+telling it how to get from where the code is to where the file we want to 
+access is.
+
+HOWEVER, there's one problem when we spcified the src attribute from index.html,
+that file was in the root of our project folder.
+
+All we had to provide was something like "images/image-to-load.jpg", it won't work,
+because it's looking for a file at "css/images/image-to-load.jpg".
+
+Instead we need a way to tell the CSS file to look OUTSIDE of it's current folder "css"
+in order to find the "images" folder.
+
+This is done by including something really weird-looking in teh file path "../"
+
+This "../" says "go outside of the current folder".
+
+So our actual file path that we'll provide to url() is "../images/image-to-load.jpg".
+*/
+
+#hero-1 {
+    background-image: url(../images/lizard.jpg);
+    height: 100vh;
+}
+
+/* 
+
+However, that still seems like it didn't work, WHY?
+
+Well it actually did but we just have an empty div in our HTML right now which has 
+a height of 0px.
+
+The background image takes up no space on its own unlike the <img> element.
+
+Imageine that we're wallpapering the image onto the background of our div.
+
+So to actually see the background we need to increase the size of our hero div.
+
+We'll make it a big one: we'll have it fill up 100% of the view height by using
+100vh (vh is a unit short for "view height".
+
+*/
+
+
+
