@@ -48,7 +48,7 @@ within the flexbox container */
     padding: 24px;
 }
 
-.comparisons-layout-1 .comparison-column h4 
+.comparisons-layout-1 .comparison-column h4,
 .comparisons-layout-1 .comparison-column p {
     padding: 24px 48px;
 }
