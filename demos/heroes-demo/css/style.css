@@ -1,0 +1,25 @@
+/* Before doing anything else, jump down to the HTML part of the demo and add
+the code as directed. You'll need an HTML element to target before you start
+writing CSS!
+
+Then add the standard page layout setup below */
+
+/* Standard page layout setup */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* Next, we need to learn about background-image.
+
+This is a CSS property that lets you add an image to an HTML element's 
+background (duh) instead of a background color or gradient.
+
+This property uses a weird function syntax similar to linear-gradient() 
+but this one is called url().
+
