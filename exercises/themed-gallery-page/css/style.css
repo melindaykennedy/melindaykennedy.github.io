@@ -7,7 +7,50 @@ body {
     font-family: sans-serif;
 }
 
-.hero-1 {
-    background-image: url();
-    height: 100vh;
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
 }
+
+#layout h1 {
+    color: brown;
+}
+#layout h3 {
+    color: brown;
+}
+
+#hero-1 {
+    background-image: url(../images/animals-in-love.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: brown;
+}
+
+#hero-1 h2 {
+    font-size: 5vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    text-align: right;
+}
+
+#hero-1 h4 {
+    font-size: 2vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
