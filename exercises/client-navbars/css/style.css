@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, brown, green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar h1 {
+    color: bisque;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: bisque;
+    padding: 24px;
+}
+
+#navbar-1 {
+    background: linear-gradient(to bottom, red, yellow, orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar-1 a {
+    text-decoration: none;
+    color:darkorange;
+    padding: 24px;
+}
+#navbar-1 .cta-button {
+    background-color: beige;
+    color: darkorange;
+    border-radius: 60px;
+    padding: 16px 24px;
+    font-size: 20px;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-top, #navbar-middle, #navbar-bottom {
+    background: linear-gradient(to bottom, red, yellow, orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar-middle .cta-button {
+    background-color: black;
+    color: Orange;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+#navbar-top a, #navbar-middle a, #navbar-bottom a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
