@@ -24,75 +24,35 @@ body {
 
 .card a {
     text-decoration: none;
-    color: black;
+    color:red;
     display: block;
-    border: 3px solid black;
+    border: 3px solid red;
     padding: 12px;
     margin-top: 36px;
+    background-color: lightpink;
 }
 
-/* Card 1 Styles */
-
-#card1:hover {
-    background-color: lightcoral;
+#card1:hover, #card2:hover, #card3:hover, #card4:hover {
+    background-color: red;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
 
-#card1 {
+#card1, #card2, #card3, #card4 {
     transition: 
     background-color 0.5s,
     box-shadow 0.5s,
     transform 0.5s;
 }
 
-/* Card 2 Styles */
-
-#card2:hover a {
-    background-color: aquamarine;
-    box-shadow: 4px 4px 4px #00000033;
-    transform: translateY(-4px);
+#card1 h2, #card2 h2, #card3 h2,
+#card4 h2 {
+    color: lightsalmon;
 }
 
-#card2 a{
-    transition: 
-    background-color 0.5s
-    box-shadow 0.5s
-    transform 0.5s;
+.card-content p {
+    color: white;
 }
-
-/* Card 3 Styles */
-
-#card3 .card-content {
-    transition: 
-    opacity 0.5s,
-    visibility 0.5s;
-}
-
-#card3:hover .card-content {
-    opacity: 0;
-    visibility: hidden;
-}
-
-/* Card 4 Styles */
-
-#card4 .card-content {
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-8px);
-    transition:
-        opacity 0.5s,
-        visibility 0.5s,
-        transform 0.5s;
-}
-
-#card4:hover .card-content{
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0px);
-}
-
-/* Card 5 Styles */
 
 #card5 {
     position: relative;
@@ -100,8 +60,7 @@ body {
 }
 
 #card5 .card-content {
-    position: absolute; /* do not use z-index if you want position in front*/
-    z-index: -1; /* for putting drop down behind not in front*/
+    position: absolute;
     background-color: white;
     border: 3px solid black;
     border-radius: 12px;
@@ -122,6 +81,21 @@ body {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
+    z-index: 2;
+}
+
+.card5-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card5-container .card {
+    flex: 1;
+    min-width: 300px
+}
+
+.card-content p {
+    color: black;
 }
 
 #card6 {
@@ -142,8 +116,8 @@ body {
 }
 
 #card6 .card-front {
-    background-image: url("../images/potions.jpg");
-    background-size: cover;
+    background-image: url("../images/hearts.png");
+    background-size: 100px;
     border-radius: 12px;
     width: 100%;
     height: 100%;
