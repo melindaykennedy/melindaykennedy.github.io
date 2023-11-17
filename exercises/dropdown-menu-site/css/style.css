@@ -76,9 +76,12 @@ body {
 }
 section {
     background-color:red;
-    margin: 36px 0px;
+    margin: 36px auto;
     padding: 36px 36px 60px;
     width: 640px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 section img {
@@ -102,6 +105,9 @@ img + p {
     color: white;
 }
 
+.fa-paw {
+    color: white;
+}
 
 
 
