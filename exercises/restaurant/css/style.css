@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#link-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#hero-1 {
+    background-image: url(../images/restaurant.jpg);
+    height: 100vh;
+}
