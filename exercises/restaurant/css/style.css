@@ -5,12 +5,14 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #7399D8;
 }
 
 #navbar {
     background-color: black;
     display: flex;
     justify-content: space-between;
+    
 }
 
 #link-container a {
@@ -129,5 +131,91 @@ body {
 #recipe {
     background-color: black;
     color: white;
+    justify-content: center;
 }
 
+#flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #7399d8;
+    border-radius: 4px;
+    padding: 15px;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 2px;
+    color: white;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+img {
+
+    align-self: center;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+    border: 10px solid #7399db;
+}
+
+.basic-grid-gallery img {
+    width: 85%;
+    height: 80%;
+}
+
+h3 {
+    color: white;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .her-content h1 {
+        font-size: 2.75rem;
+    }
+    .her-content h3 {
+        font-size: 1.124rem;
+    }
+    #navbar {
+        flex-direction: columm;
+        height: 100vh
+    }
+}
+
+@media screen and (max-width: 480px){
+    .her-content h1 {
+        font-size: 1.625rem;
+    }
+    .her-content h3 {
+        font-size: 1rem;
+    }
+    .her-content a {
+        display: block;
+        font-size: 1.125rem;
+    }
+    #navbar {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
