@@ -5,7 +5,6 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #7399D8;
 }
 
 #navbar {
@@ -23,7 +22,7 @@ body {
 }
 
 #hero-1 {
-    background-image: url(../images/restaurant.jpg);
+    background-image: url(../images/cereal-icons2.jpg);
     height: 100vh;
 }
 
@@ -81,14 +80,15 @@ body {
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: #bcc6cc;
-    color: #7399D8;
+    background-color: #7399D8;
+    color: white;
     padding: 24px 48px;
     border-radius: 48px;
 }
 
 .text-container  {
-    color: #7399D8;
+    color: black;
+    background-color: black;
 }
 
 #footer {
@@ -130,14 +130,14 @@ body {
 
 #recipe {
     background-color: black;
-    color: white;
+    color: #7399D8;
     justify-content: center;
 }
 
 #flex-container {
     display: flex;
     flex-direction: column;
-    background-color: #7399d8;
+    background-color: transparent;
     border-radius: 4px;
     padding: 15px;
     align-items: center;
@@ -147,13 +147,14 @@ h1 {
     text-align: center;
     font-size: 50px;
     margin: 2px;
-    color: white;
+    color: #7399D8;
     text-decoration: underline;
 }
 
 h2 {
     text-align: center;
     font-size: 25px;
+    color: #7399D8;
 }
 
 img {
@@ -181,8 +182,8 @@ img {
 }
 
 h3 {
-    color: white;
-    text-decoration: underline;
+    color: #7399D8;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
