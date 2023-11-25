@@ -187,10 +187,23 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-    .her-content h1 {
+    .side-by-side .image-container {
         font-size: 2.75rem;
     }
-    .her-content h3 {
+    .side-by-side .text-container{
+        font-size: 1.124rem;
+    }
+    .side-by-side .image-container img{
+        display: block;
+        font-size: 2.75rem;
+    }
+    .side-by-side .text-container h3 {
+        font-size: 1.124rem;
+    }
+    .side-by-side .text-container a {
+        font-size: 1.124rem;
+    }
+    .text-container {
         font-size: 1.124rem;
     }
     #navbar {
@@ -200,15 +213,24 @@ h3 {
 }
 
 @media screen and (max-width: 480px){
-    .her-content h1 {
+    .side-by-side .image-container {
         font-size: 1.625rem;
     }
-    .her-content h3 {
+    .side-by-side .text-container {
         font-size: 1rem;
     }
-    .her-content a {
+    .side-by-side .image-container img{
         display: block;
-        font-size: 1.125rem;
+        font-size: 1.625rem;
+    }
+    .side-by-side .text-container h3 {
+        font-size: 1rem;
+    }
+    .side-by-side .text-container a {
+        font-size: 1rem;
+    }
+    .text-container {
+        font-size: 1rem;
     }
     #navbar {
         height: auto;
