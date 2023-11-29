@@ -92,7 +92,7 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to bottom, darkorchid, orchid);
+    background: linear-gradient(to bottom, #9932cc, orchid);
     display: flex;
     justify-content: space-between;
 }
