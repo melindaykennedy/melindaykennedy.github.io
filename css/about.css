@@ -102,3 +102,23 @@ body {
     color: white;
     padding: 24px;
 }
+
+h1 {
+    color: rgb(154, 1, 220);
+    text-align: center;
+    font-size: 70px;
+}
+
+ul {
+    color: rgb(154, 1, 220);
+    font-size: 25px;
+}
+
+p {
+    color: blueviolet;
+    text-align: center;
+    font-size:25px;
+}
+
+
+
