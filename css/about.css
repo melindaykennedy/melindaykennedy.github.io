@@ -104,7 +104,7 @@ body {
 }
 
 h1 {
-    color: rgb(154, 1, 220);
+    color: white;
     text-align: center;
     font-size: 70px;
 }
@@ -112,6 +112,11 @@ h1 {
 ul {
     color: rgb(154, 1, 220);
     font-size: 25px;
+    width: max-content;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 35px;
 }
 
 p {
@@ -120,5 +125,30 @@ p {
     font-size:25px;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+}
 
+#small-hero {
+    background-image: url(../images/night-time.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
 
+@media screen and (max-width: 768px) {
+    .horizontal-masonry-gallery {
+        columns: 1 auto;
+    }
+    #layout {
+        width: 90%;
+    }
+    ul {
+        grid-template-columns: 1fr;
+    }
+}
